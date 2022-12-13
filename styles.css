@@ -1,0 +1,236 @@
+body {
+    background: linear-gradient(rgb(175, 175, 175), rgb(62, 62, 74));
+    text-align: center;
+    margin-bottom: 110px;
+    margin-top: 20px;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#score-board {
+    display: block;
+    margin: 30px auto 20px auto;
+    border: 3px solid black;
+    width: 500px;
+    background: linear-gradient(rgb(16, 16, 2120), rgb(21, 3, 111));
+    text-shadow: 2px 2px black;
+}
+
+#main-container {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid black;
+    width: 500px;
+    height: 380px;
+    background: linear-gradient(rgb(16, 16, 212), rgb(21, 3, 40));
+    text-shadow: 2px 2px black;
+    line-height: 0;
+}
+
+
+
+/* HOME GUEST */
+#home-guest {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+#home {
+    border: 1px solid black;
+    width: 150px;
+    height: 30px;
+    padding-top: 30px;
+    margin-right: 0px;
+    background: linear-gradient(rgb(16, 124, 212), rgb(5, 2, 78));
+    text-shadow: 1px 1px black;
+}
+
+#guest {
+    border: 1px solid black;
+    width: 150px;
+    height: 30px;
+    padding-top: 30px;
+    margin-right: 0px;
+    background: linear-gradient(rgb(16, 124, 212), rgb(5, 2, 78));
+    text-shadow: 1px 1px black;
+}
+
+
+
+/* MAIN DIGITS */
+#digits {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    line-height: 126.67px;
+    font-size: 60px;
+
+}
+
+#home-digits {
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 155px;
+    height: 120px;
+    margin: 0;
+    background-color: black;
+    padding-top: 10px;
+}
+
+#guest-digits {
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 155px;
+    height: 120px;
+    margin: 0;
+    background-color: black;
+    padding-top: 10px;
+}
+
+
+
+/* BUTTONS */
+#btn {
+    display: flex;
+    margin-top: 30px;
+}
+
+#home-btn {
+    margin-left: 47px;
+    margin-right: 0px;
+}
+
+#guest-btn {
+    margin-right: 0px;
+}
+
+
+
+/* HOME BTNS 123 */
+#home-btn-1 {
+    width: 40px;
+    height: 40px;
+    color: white;
+    background: linear-gradient(rgb(16, 124, 212), rgb(5, 2, 78));
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 25px;
+}
+
+#home-btn-2 {
+    margin-left: 14px;
+    margin-right: 14px;
+    width: 40px;
+    height: 40px;
+    color: white;
+    background: linear-gradient(rgb(16, 124, 212), rgb(5, 2, 78));
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 25px;
+}
+
+#home-btn-3 {
+    width: 40px;
+    height: 40px;
+    color: white;
+    background: linear-gradient(rgb(16, 124, 212), rgb(5, 2, 78));
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 25px;
+}
+
+
+/* HOME BTNS 123 HOVER */
+
+#home-btn-1:hover {
+    border: 2px solid red;
+}
+
+#home-btn-2:hover {
+    border: 2px solid red;
+}
+
+#home-btn-3:hover {
+    border: 2px solid red;
+}
+
+
+
+
+/* Guest BTNS 123 */
+#guest-btn-1 {
+    width: 40px;
+    height: 40px;
+    color: white;
+    background: linear-gradient(rgb(16, 124, 212), rgb(5, 2, 78));
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 25px;
+}
+
+#guest-btn-2 {
+    margin-left: 14px;
+    margin-right: 14px;
+    width: 40px;
+    height: 40px;
+    color: white;
+    background: linear-gradient(rgb(16, 124, 212), rgb(5, 2, 78));
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 25px;
+}
+
+#guest-btn-3 {
+    width: 40px;
+    height: 40px;
+    color: white;
+    background: linear-gradient(rgb(16, 124, 212), rgb(5, 2, 78));
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 25px;
+}
+
+
+
+/* GUEST BTNS 123 HOVER */
+#guest-btn-1:hover {
+    border: 2px solid red;
+}
+
+#guest-btn-2:hover {
+    border: 2px solid red;
+}
+
+#guest-btn-3:hover {
+    border: 2px solid red;
+}
+
+
+/* RESET */
+
+#reset-btn {
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    color: white;
+    background: linear-gradient(rgb(212, 16, 16), rgb(78, 2, 2));
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 15px;
+    padding-right: 45px;
+}
+
+#reset-btn:hover {
+    border: 2px solid red;
+}
